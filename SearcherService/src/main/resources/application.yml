@@ -1,0 +1,15 @@
+url: https://www.googleapis.com/customsearch/v1?q=magic&cx=004172855265611698583:i4dx-1jb5yk&key=AIzaSyBqOi9sfzkAPlgWSgyC84BSHV9km_OZ-Ww
+spring:
+ data:
+  mongodb:
+   authentication-database: admin
+   database: swisit
+   username: superAdmin
+   password: admin123
+ application:
+   name: SearchService
+server:
+ port: 8080
+
+  
+ 
